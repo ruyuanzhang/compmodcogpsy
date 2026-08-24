@@ -116,7 +116,7 @@
 * [写在前面的话](di-jiu-zhang-she-hui-jue-ce-he-she-hui-xue-xi/xie-zai-qian-mian-de-hua.md)
 * [9.1 社会决策](di-jiu-zhang-she-hui-jue-ce-he-she-hui-xue-xi/9.1-she-hui-jue-ce.md)
 * [9.2 社会学习](di-jiu-zhang-she-hui-jue-ce-he-she-hui-xue-xi/9.2-she-hui-xue-xi.md)
-* [9.3 展望](di-jiu-zhang-she-hui-jue-ce-he-she-hui-xue-xi/9.3-zhan-wang.md)
+* [展望](di-jiu-zhang-she-hui-jue-ce-he-she-hui-xue-xi/zhan-wang.md)
 * [Appendix](di-jiu-zhang-she-hui-jue-ce-he-she-hui-xue-xi/appendix.md)
 
 ## 第十章 神经网络
