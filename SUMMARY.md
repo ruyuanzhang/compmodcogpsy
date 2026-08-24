@@ -4,7 +4,7 @@
 
 ## 第一章 计算认知科学导论
 
-* [前言](di-yi-zhang-ji-suan-ren-zhi-ke-xue-dao-lun/qian-yan.md)
+* [写在前面的话](di-yi-zhang-ji-suan-ren-zhi-ke-xue-dao-lun/xie-zai-qian-mian-de-hua.md)
 * [1.1 交叉学科三角](di-yi-zhang-ji-suan-ren-zhi-ke-xue-dao-lun/1.1-jiao-cha-xue-ke-san-jiao.md)
 * [1.2 认知科学的特点](di-yi-zhang-ji-suan-ren-zhi-ke-xue-dao-lun/1.2-ren-zhi-ke-xue-de-te-dian.md)
 * [1.3 认知科学的发展历史](di-yi-zhang-ji-suan-ren-zhi-ke-xue-dao-lun/1.3-ren-zhi-ke-xue-de-fa-zhan-li-shi.md)
