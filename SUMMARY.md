@@ -2,6 +2,10 @@
 
 * [认知行为的计算原理](README.md)
 
+## 前言
+
+* [我为什么要写这本书?](qian-yan/wo-wei-shen-me-yao-xie-zhe-ben-shu.md)
+
 ## 第一章 计算认知科学导论
 
 * [写在前面的话](di-yi-zhang-ji-suan-ren-zhi-ke-xue-dao-lun/xie-zai-qian-mian-de-hua.md)
