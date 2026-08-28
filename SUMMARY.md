@@ -96,6 +96,7 @@
 * [7.1 前景理论](di-qi-zhang-jia-zhi-jue-ce/7.1-qian-jing-li-lun.md)
 * [7.2 风险决策](di-qi-zhang-jia-zhi-jue-ce/7.2-feng-xian-jue-ce.md)
 * [7.3 跨期决策](di-qi-zhang-jia-zhi-jue-ce/7.3-kua-qi-jue-ce.md)
+* [展望](di-qi-zhang-jia-zhi-jue-ce/zhan-wang.md)
 * [Appendix](di-qi-zhang-jia-zhi-jue-ce/appendix.md)
 
 ## 第八章 强化学习
