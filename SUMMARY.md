@@ -16,6 +16,7 @@
   * [1.4.1 认知科学的基础假设：信息处理理论](di-yi-zhang-ji-suan-ren-zhi-ke-xue-dao-lun/1.4-wo-men-wei-shen-me-xu-yao-ji-suan-ren-zhi/1.4.1-ren-zhi-ke-xue-de-ji-chu-jia-she-xin-xi-chu-li-li-lun.md)
   * [1.4.2 挑战与“诞生”](di-yi-zhang-ji-suan-ren-zhi-ke-xue-dao-lun/1.4-wo-men-wei-shen-me-xu-yao-ji-suan-ren-zhi/1.4.2-tiao-zhan-yu-dan-sheng.md)
   * [1.4.3 计算认知的必要性](di-yi-zhang-ji-suan-ren-zhi-ke-xue-dao-lun/1.4-wo-men-wei-shen-me-xu-yao-ji-suan-ren-zhi/1.4.3-ji-suan-ren-zhi-de-bi-yao-xing.md)
+* [Appendix](di-yi-zhang-ji-suan-ren-zhi-ke-xue-dao-lun/appendix.md)
 
 ## 第二章 计算模型基础
 
