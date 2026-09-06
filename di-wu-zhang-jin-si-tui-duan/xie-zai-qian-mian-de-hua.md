@@ -6,6 +6,8 @@
 
 <figure><img src="../.gitbook/assets/image (9).png" alt="" width="531"><figcaption></figcaption></figure>
 
+<p align="center">图5-1</p>
+
 虽然研究主题是熟悉的决策问题，也挂上了神经生物学的名头，并且成功地推送到了某心理学学生面前。但是显然，这些来自于“computational”的专业名词，诸如“hierarchy (hyper-group parameters)”、“hierarchical Bayesian models”、“the Markov Chain Monte Carlo (MCMC) technique”、“initial burn-in sequence”等等，对于心理学学生来说实在是如同天书。
 
 困难虽有，不必着急，本章内容也许能帮助你迈出理解第一步。
@@ -17,6 +19,8 @@
 ## 频率学派 vs. 贝叶斯学派
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+<p align="center">图5-2</p>
 
 还记得在[第三章](https://app.gitbook.com/s/u8x1pCBjIDBIizdIV9Wv/di-san-zhang-gailtui-duan-he-bei-ye-si-li-lun)中，我们学到的[最大似然估计](../di-san-zhang-gailtui-duan-he-bei-ye-si-li-lun/3.3-zui-da-si-ran-gu-ji.md)和[最大后验估计](../di-san-zhang-gailtui-duan-he-bei-ye-si-li-lun/3.4-bei-ye-si-li-lun.md#zui-da-hou-yan-gu-ji)吗？在频率学派中，我们利用最大似然估计的方法，遍历所有可能的参数值，寻找哪个参数最有可能产生观测数据，即$$\hat{\theta} = \arg\max_{\theta} \, p(\text{data} \mid \theta)$$。但是， 当遇到参数空间太大、数据太少等情况时，最大似然估计可能不稳定，出现无解或解不唯一等问题。在贝叶斯学派中，最大后验估计的方法通过引入先验信息来约束参数，我们带着对参数的先验，从已经产生的观测数据中反推出参数的最大可能值，即$$\hat{\theta} = \arg\max_{\theta} \, p(\theta \mid data)=\arg\max_{\theta} \, p( data \mid \theta)p(\theta)$$。这种贝叶斯推理的思想广泛存在于认知心理学的概率模型中，其本质就是求解后验概率分布。
 
@@ -52,7 +56,7 @@
 
 #### 参考文献
 
-\[1] Edelson, M. G., Polania, R., Ruff, C. C., Fehr, E., & Hare, T. A. (2018). Computational and neurobiological foundations of leadership decisions. _Science_, _361_(6401), eaat0036. [https://doi.org/10.1126/science.aat0036](https://doi.org/10.1126/science.aat0036)
+\[1] Edelson, M. G., Polania, R., Ruff, C. C., Fehr, E., & Hare, T. A. (2018). Computational and neurobiological foundations of leadership decisions. _Science_, _361_(6401), eaat0036.
 
 
 
