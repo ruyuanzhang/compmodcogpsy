@@ -21,6 +21,15 @@ description: Appendix
 13. Barretto-Garcia, M., de Hollander, G., Grueschow, M., Polania, R., Woodford, M., & Ruff, C. C. (2023). Individual risk attitudes arise from noise in neurocognitive magnitude representations. Nature Human Behaviour, 7(9), 1551-1567. https://doi.org/10.1038/s41562-023-01643-4
 14. Zhang, H., Ren, X., & Maloney, L. T. (2020). The bounded rationality of probability distortion. Proceedings of National Academy of Sciences, 117(36), 22024-22034. https://doi.org/10.1073/pnas.1922401117
 15. Zhu, J.-Q., Xie, H., Arumugam, D., Wilson, R., & Griffiths, T. L. (2026). Using reinforcement learning to train large language models to explain human decisions. International Conference on Learning Representations.
+16. Ainslie, G. (1975). Specious reward: A behavioral theory of impulsiveness and impulse control. _Psychological Bulletin, 82_(4), 463–496.
+17. Frederick, S., Loewenstein, G., & O'Donoghue, T. (2002). Time discounting and time preference: A critical review. _Journal of Economic Literature, 40_(2), 351–401.
+18. Green, L., Fristoe, N., & Myerson, J. (1994). Temporal discounting and preference reversals in choice between delayed outcomes. _Psychonomic Bulletin & Review, 1_, 383–389.
+19. Kirby, K. N. (1997). Bidding on the future: Evidence against normative discounting of delayed rewards. _Journal of Experimental Psychology: General, 126_(1), 54–70.
+20. Laibson, D. (1997). Golden eggs and hyperbolic discounting. _The Quarterly Journal of Economics, 112_(2), 443–478.
+21. Mazur, J. E. (1987). An adjusting procedure for studying delayed reinforcement. In M. L. Commons, J. E. Mazur, J. A. Nevin, & H. Rachlin (Eds.), _Quantitative Analyses of Behavior: Vol. 5. The Effect of Delay and of Intervening Events on Reinforcement Value_. Lawrence Erlbaum Associates.
+22. Samuelson, P. A. (1937). A note on measurement of utility. _The Review of Economic Studies, 4_(2), 155–161.
+
+
 
 
 
