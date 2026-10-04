@@ -73,7 +73,6 @@
   * [5.2.2 变分推断实例：高斯分布近似](di-wu-zhang-jin-si-tui-duan/5.2-bian-fen-tui-duan/5.2.2-bian-fen-tui-duan-shi-li-gao-si-fen-bu-jin-si.md)
   * [5.2.3 变分推断在参数估计中的应用](di-wu-zhang-jin-si-tui-duan/5.2-bian-fen-tui-duan/5.2.3-bian-fen-tui-duan-zai-can-shu-gu-ji-zhong-de-ying-yong.md)
   * [5.2.4 变分推断在认知理论中的应用：自由能原理](di-wu-zhang-jin-si-tui-duan/5.2-bian-fen-tui-duan/5.2.4-bian-fen-tui-duan-zai-ren-zhi-li-lun-zhong-de-ying-yong-zi-you-neng-yuan-li.md)
-* [展望](di-wu-zhang-jin-si-tui-duan/zhan-wang.md)
 * [Appendix](di-wu-zhang-jin-si-tui-duan/appendix.md)
 
 ## 第六章 知觉决策
@@ -87,7 +86,6 @@
   * [6.5.1 基于价值的决策](di-liu-zhang-zhi-jue-jue-ce/6.5-piao-yi-kuo-san-mo-xing-de-ying-yong/6.5.1-ji-yu-jia-zhi-de-jue-ce.md)
   * [6.5.2 精神疾病的应用](di-liu-zhang-zhi-jue-jue-ce/6.5-piao-yi-kuo-san-mo-xing-de-ying-yong/6.5.2-jing-shen-ji-bing-de-ying-yong.md)
   * [6.5.3 社会认知](di-liu-zhang-zhi-jue-jue-ce/6.5-piao-yi-kuo-san-mo-xing-de-ying-yong/6.5.3-she-hui-ren-zhi.md)
-* [展望](di-liu-zhang-zhi-jue-jue-ce/zhan-wang.md)
 * [Appendix](di-liu-zhang-zhi-jue-jue-ce/appendix.md)
 
 ## 第七章 价值决策
