@@ -1,7 +1,3 @@
----
-description: Appendix
----
-
 # Appendix
 
 1. Kriegeskorte, N. & Douglas, P. K. Cognitive computational neuroscience. _Nat. Neurosci._ 21, 1148–1160 (2018).
