@@ -127,9 +127,10 @@
 
 * [写在前面的话](di-shi-zhang-shen-jing-wang-luo/xie-zai-qian-mian-de-hua.md)
 * [10.1 神经网络基础](di-shi-zhang-shen-jing-wang-luo/10.1-shen-jing-wang-luo-ji-chu/README.md)
-  * [10.1.1 多层感知机](di-shi-zhang-shen-jing-wang-luo/10.1-shen-jing-wang-luo-ji-chu/10.1.1-duo-ceng-gan-zhi-ji.md)
-  * [10.1.2 卷积神经网络](di-shi-zhang-shen-jing-wang-luo/10.1-shen-jing-wang-luo-ji-chu/10.1.2-juan-ji-shen-jing-wang-luo.md)
-  * [10.1.3 循环神经网络](di-shi-zhang-shen-jing-wang-luo/10.1-shen-jing-wang-luo-ji-chu/10.1.3-xun-huan-shen-jing-wang-luo.md)
+  * [10.1.1 神经网络的架构](di-shi-zhang-shen-jing-wang-luo/10.1-shen-jing-wang-luo-ji-chu/10.1.1-shen-jing-wang-luo-de-jia-gou.md)
+  * [10.1.2 反向传播算法](di-shi-zhang-shen-jing-wang-luo/10.1-shen-jing-wang-luo-ji-chu/10.1.2-fan-xiang-chuan-bo-suan-fa.md)
+  * [10.1.3 卷积神经网络](di-shi-zhang-shen-jing-wang-luo/10.1-shen-jing-wang-luo-ji-chu/10.1.3-juan-ji-shen-jing-wang-luo.md)
+  * [10.1.4 循环神经网络](di-shi-zhang-shen-jing-wang-luo/10.1-shen-jing-wang-luo-ji-chu/10.1.4-xun-huan-shen-jing-wang-luo.md)
 * [10.2 神经网络和人脑加工的关系](di-shi-zhang-shen-jing-wang-luo/10.2-shen-jing-wang-luo-he-ren-nao-jia-gong-de-guan-xi/README.md)
   * [10.2.1 感知觉的编解码](di-shi-zhang-shen-jing-wang-luo/10.2-shen-jing-wang-luo-he-ren-nao-jia-gong-de-guan-xi/10.2.1-gan-zhi-jue-de-bian-jie-ma.md)
   * [10.2.2 工作记忆](di-shi-zhang-shen-jing-wang-luo/10.2-shen-jing-wang-luo-he-ren-nao-jia-gong-de-guan-xi/10.2.2-gong-zuo-ji-yi.md)
