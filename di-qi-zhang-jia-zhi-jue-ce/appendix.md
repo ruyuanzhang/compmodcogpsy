@@ -4,11 +4,18 @@
 
 
 
-| 符号或正文名称 | 物理意义 | 正文中的写法或说明 |
-| ------- | ---- | --------- |
-| EV      | 期望价值 |           |
-|         |      |           |
-|         |      |           |
+| 符号或正文名称   | 物理意义        | 正文中的写法或说明                             |
+| --------- | ----------- | ------------------------------------- |
+| EV        | 期望价值        |                                       |
+| SV        | 主观价值        | 奖励经过时间折扣后，在当前决策中的价值                   |
+| A         | 奖励大小        | 奖励的客观金额或客观价值                          |
+| D         | 延迟时间        | 从当前时点到获得奖励之间需要等待的时间                   |
+| k         | 时间折扣参数      | 描述未来奖励随延迟增加而贬值的程度；k越大，折扣通常越陡峭         |
+| SV=f(A,D) | 时间折扣函数      | 将奖励大小A和延迟时间D映射为主观价值SV                 |
+| SS        | 较小但较早的奖励    | 跨期选择中的较早选项，通常金额较小                     |
+| LL        | 较大但较晚的奖励    | 跨期选择中的较晚选项，通常金额较大                     |
+| log(k)    | 时间折扣参数的对数转换 | 常用于统计分析，以减小k分布的右偏；较大的log(k)仍表示更强的时间折扣 |
+|           |             |                                       |
 
 ### 本章参考文献 <a href="#ben-zhang-can-kao-wen-xian" id="ben-zhang-can-kao-wen-xian"></a>
 
@@ -27,14 +34,14 @@
 13. Figner, B., Mackinlay, R. J., Wilkening, F., & Weber, E. U. (2009). Affective and deliberative processes in risky choice: age differences in risk taking in the Columbia Card Task. _Journal of Experimental Psychology: Learning, Memory, and Cognition_, 35(3), 709. https://doi.org/10.1037/a0014983
 14. Frey, R., Pedroni, A., Mata, R., Rieskamp, J., & Hertwig, R. (2017). Risk preference shares the psychometric structure of major psychological traits. _Science Advances_, 3(10), e1701381. https://doi.org/10.1126/sciadv.1701381
 15. Krefeld-Schwalb, A., Pachur, T., & Scheibehenne, B. (2022). Structural parameter interdependencies in computational models of cognition. _Psychological review_, 129(2), 313-339. https://doi.org/10.1037/rev0000285
-16. Ainslie, G. (1975). Specious reward: A behavioral theory of impulsiveness and impulse control. _Psychological Bulletin, 82_(4), 463–496.
-17. Frederick, S., Loewenstein, G., & O'Donoghue, T. (2002). Time discounting and time preference: A critical review. _Journal of Economic Literature, 40_(2), 351–401.
-18. Green, L., Fristoe, N., & Myerson, J. (1994). Temporal discounting and preference reversals in choice between delayed outcomes. _Psychonomic Bulletin & Review, 1_, 383–389.
-19. Kirby, K. N. (1997). Bidding on the future: Evidence against normative discounting of delayed rewards. _Journal of Experimental Psychology: General, 126_(1), 54–70.
-20. Laibson, D. (1997). Golden eggs and hyperbolic discounting. _The Quarterly Journal of Economics, 112_(2), 443–478.
-21. Commons, J. E. Mazur, J. A. Nevin, & H. Rachlin (Eds.), _Quantitative Analyses of Behavior: Vol. 5. The Effect of Delay and of Intervening Events on Reinforcement Value_. Lawrence Erlbaum Associates.
-22. Mazur, J. E. (1987). An adjusting procedure for studying delayed reinforcement. In M. L. Commons, J. E. Mazur, J. A. Nevin, & H. Rachlin (Eds.), _Quantitative Analyses of Behavior: Vol. 5. The Effect of Delay and of Intervening Events on Reinforcement Value_. Lawrence Erlbaum Associates.
-23. Samuelson, P. A. (1937). A note on measurement of utility. _The Review of Economic Studies, 4_(2), 155–161.
+16. Frederick, S., Loewenstein, G., & O'Donoghue, T. (2002). Time discounting and time preference: A critical review. _Journal of Economic Literature, 40_(2), 351–401.
+17. Mazur, J. E. (1987). An adjusting procedure for studying delayed reinforcement. In M. L. Commons, J. E. Mazur, J. A. Nevin, & H. Rachlin (Eds.), _Quantitative Analyses of Behavior: Vol. 5. The Effect of Delay and of Intervening Events on Reinforcement Value_. Lawrence Erlbaum Associates.
+18. Samuelson, P. A. (1937). A note on measurement of utility. _The Review of Economic Studies, 4_(2), 155–161.
+19. Ainslie, G. (1975). Specious reward: A behavioral theory of impulsiveness and impulse control. _Psychological Bulletin, 82_(4), 463–496.
+20. Green, L., Fristoe, N., & Myerson, J. (1994). Temporal discounting and preference reversals in choice between delayed outcomes. _Psychonomic Bulletin & Review, 1_, 383–389.
+21. Kirby, K. N. (1997). Bidding on the future: Evidence against normative discounting of delayed rewards. _Journal of Experimental Psychology: General, 126_(1), 54–70.
+22. Laibson, D. (1997). Golden eggs and hyperbolic discounting. _The Quarterly Journal of Economics, 112_(2), 443–478.
+23. McClure, S. M., Laibson, D. I., Loewenstein, G., & Cohen, J. D. (2004). Separate neural systems value immediate and delayed monetary rewards. _Science, 306_(5695), 503–507.
 24. Barretto-Garcia, M., de Hollander, G., Grueschow, M., Polania, R., Woodford, M., & Ruff, C. C. (2023). Individual risk attitudes arise from noise in neurocognitive magnitude representations. _Nature Human Behaviour_, 7(9), 1551-1567. https://doi.org/10.1038/s41562-023-01643-4
 25. Zhang, H., Ren, X., & Maloney, L. T. (2020). The bounded rationality of probability distortion. _Proceedings of National Academy of Sciences_, 117(36), 22024-22034. https://doi.org/10.1073/pnas.1922401117
 26. Gabaix, X., & Laibson, D. (2017). _Myopia and discounting_ (No. w23254). National bureau of economic research.
