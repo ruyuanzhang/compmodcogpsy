@@ -53,7 +53,7 @@
   * [4.3.1 信号检测论基础](di-si-zhang-xin-li-wu-li-xue-he-xin-hao-jian-ce-lun/4.3-xin-hao-jian-ce-lun/4.3.1-xin-hao-jian-ce-lun-ji-chu.md)
   * [4.3.2 d-prime](di-si-zhang-xin-li-wu-li-xue-he-xin-hao-jian-ce-lun/4.3-xin-hao-jian-ce-lun/4.3.2-d-prime.md)
   * [4.3.3 决策标准](di-si-zhang-xin-li-wu-li-xue-he-xin-hao-jian-ce-lun/4.3-xin-hao-jian-ce-lun/4.3.3-jue-ce-biao-zhun.md)
-  * [4.3.4 Receiver Operating Curve (ROC)曲线和Area Under Curve (AUC)](di-si-zhang-xin-li-wu-li-xue-he-xin-hao-jian-ce-lun/4.3-xin-hao-jian-ce-lun/4.3.4-receiver-operating-curve-roc-qu-xian-he-area-under-curve-auc.md)
+  * [4.3.4 接受者操作特性曲线和曲线下面积](di-si-zhang-xin-li-wu-li-xue-he-xin-hao-jian-ce-lun/4.3-xin-hao-jian-ce-lun/4.3.4-jie-shou-zhe-cao-zuo-te-xing-qu-xian-he-qu-xian-xia-mian-ji.md)
   * [4.3.5 d-prime和AUC的关系](di-si-zhang-xin-li-wu-li-xue-he-xin-hao-jian-ce-lun/4.3-xin-hao-jian-ce-lun/4.3.5-dprime-he-auc-de-guan-xi.md)
   * [4.3.6 2AFC的应用](di-si-zhang-xin-li-wu-li-xue-he-xin-hao-jian-ce-lun/4.3-xin-hao-jian-ce-lun/4.3.6-2afc-de-ying-yong.md)
 * [Appendix](di-si-zhang-xin-li-wu-li-xue-he-xin-hao-jian-ce-lun/appendix.md)
