@@ -14,3 +14,6 @@
 12. Hasson, U., Nastase, S. A. & Goldstein, A. Direct fit to nature: an evolutionary perspective on biological and artificial neural networks. _Neuron_ 105, 416–434 (2020).
 13. Hassabis, D., Kumaran, D., Summerfield, C. & Botvinick, M. Neuroscience-inspired artificial intelligence. _Neuron_ 95, 245–258 (2017).
 14. Lake, B. M., Ullman, T. D., Tenenbaum, J. B. & Gershman, S. J. Building machines that learn and think like people. _Behav. Brain Sci._ 40, e253 (2017).
+15. Ji-An, L., Benna, M. K. & Mattar, M. G. Discovering cognitive strategies with tiny recurrent neural networks. _Nature_ **644**, 993–1001 (2025). https://doi.org/10.1038/s41586-025-09142-4
+16. Bartolo, R., Saunders, R. C., Mitz, A. R. & Averbeck, B. B. Dimensionality, information and learning in prefrontal cortex. _PLOS Computational Biology_ **16**, e1007514 (2020). https://doi.org/10.1371/journal.pcbi.1007514
+17. Bartolo, R. & Averbeck, B. Spike count data for studying dimensionality, information and learning in prefrontal cortex \[Data set, Version 1]. _Mendeley Data_ https://doi.org/10.17632/p7ft2bvphx.1 (2022).
