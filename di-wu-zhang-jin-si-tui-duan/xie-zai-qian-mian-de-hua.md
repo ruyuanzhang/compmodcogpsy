@@ -56,7 +56,7 @@
 
 #### 参考文献
 
-1. Edelson, M. G., Polania, R., Ruff, C. C., Fehr, E., & Hare, T. A. (2018). Computational and neurobiological foundations of leadership decisions. _Science_, _361_(6401), eaat0036.
+1. Edelson, M. G., Polania, R., Ruff, C. C., Fehr, E. & Hare, T. A. Computational and neurobiological foundations of leadership decisions. _Science_ **361**, eaat0036 (2018).
 
 
 
