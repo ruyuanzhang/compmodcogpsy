@@ -94,4 +94,6 @@ print(a.shape)
 * 每个章节的参考文献请统一放到后面的Appendix里面
 * 参考文献一律用数字来表示，引用格式为nature系列杂志投稿格式，例如
 
-> Klaholz, B. P., Myasnikov, A. G. & Van Heel, M. Visualization of release factor 3 on the ribosome during termination of protein synthesis. Nature 427, 862–865 (2004).
+Tversky, A., & Kahneman, D. (1992) 首次提出了累积前景理论<sup>1</sup>的概念，进一步扩充了原始前景理论的内核。
+
+> 1. Tversky, A., & Kahneman, D. (1992). Advances in prospect theory: Cumulative representation of uncertainty. Journal of Risk and Uncertainty, 5(4), 297-323. https://doi.org/10.1007/BF00122574
