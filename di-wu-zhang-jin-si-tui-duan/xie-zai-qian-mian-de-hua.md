@@ -2,7 +2,7 @@
 
 在第三章和第四章中，我们分别学习了概率推断和贝叶斯理论的基础，以及在一个简单心理物理曲线上面的应用。这一章，我们将学习贝叶斯理论和推断较难的一部分，可能也是本书在理解上最难的一部分，通过这部分的学习，我们将详细学习近似推断的原理，我们也将在后面的章节中应用这一原理。
 
-打算写这一章节的初衷，是2021年的时候，我在准备相关的教学材料，我就问到身边的研究生，在研究过程中计算建模部分有什么是觉得难度比较大的呢？其中有学生就举了下面这篇2018年发表于Science的文章。
+打算写这一章节的初衷，是2021年的时候，我在准备相关的教学材料，我就问到身边的研究生，在研究过程中计算建模部分有什么是觉得难度比较大的呢？其中有学生就举了下面这篇2018年发表于Science的文章<sup>1</sup>。
 
 <figure><img src="../.gitbook/assets/image (9).png" alt="" width="531"><figcaption></figcaption></figure>
 
@@ -56,7 +56,7 @@
 
 #### 参考文献
 
-\[1] Edelson, M. G., Polania, R., Ruff, C. C., Fehr, E., & Hare, T. A. (2018). Computational and neurobiological foundations of leadership decisions. _Science_, _361_(6401), eaat0036.
+1. Edelson, M. G., Polania, R., Ruff, C. C., Fehr, E., & Hare, T. A. (2018). Computational and neurobiological foundations of leadership decisions. _Science_, _361_(6401), eaat0036.
 
 
 

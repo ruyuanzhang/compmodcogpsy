@@ -6,21 +6,13 @@
 
 ## 本章参考文献
 
-\[1] Edelson, M. G., Polania, R., Ruff, C. C., Fehr, E., & Hare, T. A. (2018). Computational and neurobiological foundations of leadership decisions. _Science_, _361_(6401), eaat0036.
-
-\[2] Gershman, S. J., Vul, E. & Tenenbaum, J. B. Multistability and perceptual inference. _Neural Comput._ 24, 1–24 (2012).
-
-\[3] Hoyer, P. & Hyvärinen, A. Interpreting neural response variability as Monte Carlo sampling of the posterior. In _Advances in Neural Information Processing Systems_ Vol. 15 (eds Becker, S. et al.) (MIT Press, 2002).
-
-\[4] Knill, D. C. & Pouget, A. The Bayesian brain: the role of uncertainty in neural coding and computation. _Trends Neurosci._ 27, 712–719 (2004).&#x20;
-
-\[5] Ma, W., Beck, J., Latham, P. _et al._ Bayesian inference with probabilistic population codes. _Nat. Neurosci._ 9, 1432–1438 (2006). https://doi.org/10.1038/nn1790
-
-\[6] Sanborn, A. N. & Chater, N. Bayesian brains without probabilities. _Trends Cogn. Sci._ 20, 883–893 (2016).
-
-\[7] Zemel, R., Dayan, P. & Pouget, A. Probabilistic interpretation of population code. _Neural Comput._ 10, 403–430 (1998).
-
-\[8] Friston, K. J. The free-energy principle: a unified brain theory? _Nat. Rev. Neurosci._ 11, 127–138 (2010).
-
-\[9] Gershman, S. J. What does the free energy principle tell us about the brain? _Neurons Behav. Data Anal. Theory_ **2** (2019).
+1. Edelson, M. G., Polania, R., Ruff, C. C., Fehr, E., & Hare, T. A. (2018). Computational and neurobiological foundations of leadership decisions. _Science_, _361_(6401), eaat0036.
+2. Knill, D. C. & Pouget, A. The Bayesian brain: the role of uncertainty in neural coding and computation. _Trends Neurosci._ 27, 712–719 (2004).&#x20;
+3. Zemel, R., Dayan, P. & Pouget, A. Probabilistic interpretation of population code. _Neural Comput._ 10, 403–430 (1998).
+4. Ma, W., Beck, J., Latham, P. _et al._ Bayesian inference with probabilistic population codes. _Nat Neurosci_ 9, 1432–1438 (2006).
+5. Hoyer, P. & Hyvärinen, A. Interpreting neural response variability as Monte Carlo sampling of the posterior. In _Advances in Neural Information Processing Systems_ Vol. 15 (eds Becker, S. et al.) (MIT Press, 2002).
+6. Gershman, S. J., Vul, E. & Tenenbaum, J. B. Multistability and perceptual inference. _Neural Comput._ 24, 1–24 (2012).
+7. Sanborn, A. N. & Chater, N. Bayesian brains without probabilities. _Trends Cogn. Sci._ 20, 883–893 (2016).
+8. Friston, K. J. The free-energy principle: a unified brain theory? _Nat. Rev. Neurosci._ 11, 127–138 (2010).
+9. Gershman, S. J. What does the free energy principle tell us about the brain? _Neurons Behav. Data Anal. Theory_ **2** (2019).
 
