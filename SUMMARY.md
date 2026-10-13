@@ -109,9 +109,8 @@
 * [8.3 强化学习的交叉关系](di-ba-zhang-qiang-hua-xue-xi/8.3-qiang-hua-xue-xi-de-jiao-cha-guan-xi.md)
 * [8.4 强化学习模型和参数估计](di-ba-zhang-qiang-hua-xue-xi/8.4-qiang-hua-xue-xi-mo-xing-he-can-shu-gu-ji.md)
 * [8.5 强化学习变种和模型比较](di-ba-zhang-qiang-hua-xue-xi/8.5-qiang-hua-xue-xi-bian-zhong-he-mo-xing-bi-jiao.md)
-* [8.6 Rescorlar-wagner模型](di-ba-zhang-qiang-hua-xue-xi/8.6-rescorlarwagner-mo-xing.md)
-* [8.7 二阶段任务](di-ba-zhang-qiang-hua-xue-xi/8.7-er-jie-duan-ren-wu.md)
-* [8.8 强化学习的神经机制](di-ba-zhang-qiang-hua-xue-xi/8.8-qiang-hua-xue-xi-de-shen-jing-ji-zhi.md)
+* [8.6 二阶段任务](di-ba-zhang-qiang-hua-xue-xi/8.6-er-jie-duan-ren-wu.md)
+* [8.7 强化学习的神经机制](di-ba-zhang-qiang-hua-xue-xi/8.7-qiang-hua-xue-xi-de-shen-jing-ji-zhi.md)
 * [展望](di-ba-zhang-qiang-hua-xue-xi/zhan-wang.md)
 * [Appendix](di-ba-zhang-qiang-hua-xue-xi/appendix.md)
 
