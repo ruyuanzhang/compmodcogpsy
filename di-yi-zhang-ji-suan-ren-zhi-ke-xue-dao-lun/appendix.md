@@ -30,6 +30,7 @@ description: Appendix
 22. Zhang, H., Ren, X., & Maloney, L. T. (2020). The bounded rationality of probability distortion. Proceedings of National Academy of Sciences, 117(36), 22024-22034. https://doi.org/10.1073/pnas.1922401117
 23. Gabaix, X., & Laibson, D. (2017). _Myopia and discounting_ (No. w23254). National bureau of economic research.
 24. Zhu, J.-Q., Xie, H., Arumugam, D., Wilson, R., & Griffiths, T. L. (2026). Using reinforcement learning to train large language models to explain human decisions. International Conference on Learning Representations.
+25. Marr, D. (2010). _Vision: A computational investigation into the human representation and processing of visual information_. The MIT Press.
 
 
 
