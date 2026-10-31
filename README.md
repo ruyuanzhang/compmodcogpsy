@@ -96,5 +96,5 @@ print(a.shape)
 
 Tversky, A., & Kahneman, D. (1992) 首次提出了累积前景理论<sup>1</sup>的概念，进一步扩充了原始前景理论的内核。
 
-> 1. Tversky, A., & Kahneman, D. (1992). Advances in prospect theory: Cumulative representation of uncertainty. Journal of Risk and Uncertainty, 5(4), 297-323.
+> 1. Tversky, A., & Kahneman, D. Advances in prospect theory: Cumulative representation of uncertainty. Journal of Risk and Uncertainty, 5(4), 297-323. (1992)
 
