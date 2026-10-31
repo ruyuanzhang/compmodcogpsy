@@ -25,9 +25,9 @@
 23. Sussillo, D. & Barak, O. Opening the black box: low-dimensional dynamics in high-dimensional recurrent neural networks. Neural Comput. 25, 626–649 (2013).
 24. Rigotti, M., Barak, O., Warden, M. R., Wang, X.-J., Daw, N. D., Miller, E. K. & Fusi, S. The importance of mixed selectivity in complex cognitive tasks. Nature 497, 585–590 (2013).
 25. Peterson, J. C., Bourgin, D. D., Agrawal, M., Reichman, D., & Griffiths, T. L. (2021). Using large-scale experiments and machine learning to discover theories of human decision-making. _Science_, _372_(6547), 1209-1214.
-26. Ji-An, L., Benna, M. K. & Mattar, M. G. Discovering cognitive strategies with tiny recurrent neural networks. _Nature_ **644**, 993–1001 (2025). https://doi.org/10.1038/s41586-025-09142-4
-27. Bartolo, R., Saunders, R. C., Mitz, A. R. & Averbeck, B. B. Dimensionality, information and learning in prefrontal cortex. _PLOS Computational Biology_ **16**, e1007514 (2020). https://doi.org/10.1371/journal.pcbi.1007514
-28. Bartolo, R. & Averbeck, B. Spike count data for studying dimensionality, information and learning in prefrontal cortex \[Data set, Version 1]. _Mendeley Data_ https://doi.org/10.17632/p7ft2bvphx.1 (2022).
+26. Ji-An, L., Benna, M. K., & Mattar, M. G. (2025). Discovering cognitive strategies with tiny recurrent neural networks. _Nature, 644_(8078), 993-1001.
+27. Bartolo, R., Saunders, R. C., Mitz, A. R., & Averbeck, B. B. (2020). Dimensionality, information and learning in prefrontal cortex. _PLoS computational biology, 16_(4), e1007514.
+28. Bartolo, Ramon; Averbeck, Bruno (2022), “Spike count data for studying dimensionality, information and learning in prefrontal cortex”, Mendeley Data, V1, doi: 10.17632/p7ft2bvphx.1
 29. Kriegeskorte, N. & Douglas, P. K. Cognitive computational neuroscience. _Nat. Neurosci._ 21, 1148–1160 (2018).
 30. Richards, B. A. _et al._ A deep learning framework for neuroscience. _Nat. Neurosci._ 22, 1761–1770 (2019).
 31. Yamins, D. L. K. _et al._ Performance-optimized hierarchical models predict neural responses in higher visual cortex. _Proc. Natl Acad. Sci. USA_ 111, 8619–8624 (2014).
