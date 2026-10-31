@@ -3,10 +3,10 @@
 ## 本章参考文献
 
 1. Kandel, E. R., Schwartz, J. H., & Jessell, T. M. (2000). _Principles of neural science_ (4th ed.). McGraw-Hill.
-2. Gazzaniga, M. S., Ivry, R. B., & Mangun, G. R. (2013). _Cognitive neuroscience: The biology of the mind (4th ed.)_. W. W. Norton.
+2. Gazzaniga, M. S., Ivry, R. B., & Mangun, G. R. (2013). _Cognitive neuroscience: The biology of the mind_ (4th ed.). W. W. Norton.
 3. 加扎尼加, M. S., 伊夫里, R. B., & 曼根, G. R. (2011). _认知神经科学：关于心智的生物学_（周晓林, 高定国, 等译）. 中国轻工业出版社.
 4. McCarthy, J. (2007). _What is artificial intelligence?_ Stanford University. [http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html](http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html)
-5. Dayan, P., & Abbott, L. F. (2001). _Theoretical neuroscience: Computational and mathematical modeling of neural systems._ MIT Press.
+5. Dayan, P., & Abbott, L. F. (2001). _Theoretical neuroscience: Computational and mathematical modeling of neural systems_. MIT Press.
 6. Cognitive Science Society. (n.d.). _About the Cognitive Science Society_. [https://cognitivesciencesociety.org/about/](https://cognitivesciencesociety.org/about/)
 7. Rumelhart, D. E., McClelland, J. L., & PDP Research Group. (1986). _Parallel distributed processing: Explorations in the microstructure of cognition_ (Vol. 1: Foundations). MIT Press. [https://doi.org/10.7551/mitpress/5236.001.0001](https://doi.org/10.7551/mitpress/5236.001.0001)
 8. Churchland, P. S. (2012, April 10). _Causal machines_. 3:16am. [https://www.3-16am.co.uk/articles/causal-machines](https://www.3-16am.co.uk/articles/causal-machines)
