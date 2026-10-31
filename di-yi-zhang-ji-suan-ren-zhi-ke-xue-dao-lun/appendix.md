@@ -1,14 +1,10 @@
----
-description: Appendix
----
-
 # Appendix
 
 ## 本章参考文献
 
 1. Kandel, E. R., Schwartz, J. H., & Jessell, T. M. (2000). Principles of neural science (4th ed.). McGraw-Hill.
 2. Gazzaniga, M. S., Ivry, R. B., & Mangun, G. R. (2013). Cognitive neuroscience: The biology of the mind (4th ed.). W. W. Norton.
-3. 加扎尼加, M. S., 伊夫里, R. B., & 曼根, G. R. (2011). 认知神经科学：关于心智的生物学（周晓林, 高定国, 等译）. 中国轻工业出版社.
+3. 加扎尼加, M. S., 伊夫里, R. B., & 曼根, G. R. (2011). _认知神经科学：关于心智的生物学（周晓林, 高定国, 等译）_. 中国轻工业出版社.
 4. McCarthy, J. (2007). What is artificial intelligence? Stanford University. [http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html](http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html)
 5. Dayan, P., & Abbott, L. F. (2001). Theoretical neuroscience: Computational and mathematical modeling of neural systems. MIT Press.
 6. Cognitive Science Society. (n.d.). _About the Cognitive Science Society_. [https://cognitivesciencesociety.org/about/](https://cognitivesciencesociety.org/about/)
@@ -45,7 +41,7 @@ description: Appendix
 37. Gibson, J. J. (1979). _The ecological approach to visual perception_. Houghton Mifflin.
 38. Clark, A., & Chalmers, D. (1998). The extended mind. _Analysis_, _58_(1), 7–19. [https://doi.org/10.1093/analys/58.1.7](https://doi.org/10.1093/analys/58.1.7)
 39. Jobs, S. (1995). Interview with Robert X. Cringely. In _Triumph of the nerds_ \[Television documentary]. Public Broadcasting Service.
-40. 40\. Varela, F. J., Thompson, E., & Rosch, E. (1991). _The embodied mind: Cognitive science and human experience_. MIT Press.
+40. Varela, F. J., Thompson, E., & Rosch, E. (1991). _The embodied mind: Cognitive science and human experience_. MIT Press.
 
 
 
