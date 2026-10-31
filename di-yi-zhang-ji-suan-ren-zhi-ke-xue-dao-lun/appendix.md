@@ -2,24 +2,24 @@
 
 ## 本章参考文献
 
-1. Kandel, E. R., Schwartz, J. H., & Jessell, T. M. (2000). Principles of neural science (4th ed.). McGraw-Hill.
-2. Gazzaniga, M. S., Ivry, R. B., & Mangun, G. R. (2013). Cognitive neuroscience: The biology of the mind (4th ed.). W. W. Norton.
-3. 加扎尼加, M. S., 伊夫里, R. B., & 曼根, G. R. (2011). _认知神经科学：关于心智的生物学（周晓林, 高定国, 等译）_. 中国轻工业出版社.
-4. McCarthy, J. (2007). What is artificial intelligence? Stanford University. [http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html](http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html)
-5. Dayan, P., & Abbott, L. F. (2001). Theoretical neuroscience: Computational and mathematical modeling of neural systems. MIT Press.
+1. Kandel, E. R., Schwartz, J. H., & Jessell, T. M. (2000). _Principles of neural science_ (4th ed.). McGraw-Hill.
+2. Gazzaniga, M. S., Ivry, R. B., & Mangun, G. R. (2013). _Cognitive neuroscience: The biology of the mind (4th ed.)_. W. W. Norton.
+3. 加扎尼加, M. S., 伊夫里, R. B., & 曼根, G. R. (2011). _认知神经科学：关于心智的生物学_（周晓林, 高定国, 等译）. 中国轻工业出版社.
+4. McCarthy, J. (2007). _What is artificial intelligence?_ Stanford University. [http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html](http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html)
+5. Dayan, P., & Abbott, L. F. (2001). _Theoretical neuroscience: Computational and mathematical modeling of neural systems._ MIT Press.
 6. Cognitive Science Society. (n.d.). _About the Cognitive Science Society_. [https://cognitivesciencesociety.org/about/](https://cognitivesciencesociety.org/about/)
 7. Rumelhart, D. E., McClelland, J. L., & PDP Research Group. (1986). _Parallel distributed processing: Explorations in the microstructure of cognition_ (Vol. 1: Foundations). MIT Press. [https://doi.org/10.7551/mitpress/5236.001.0001](https://doi.org/10.7551/mitpress/5236.001.0001)
 8. Churchland, P. S. (2012, April 10). _Causal machines_. 3:16am. [https://www.3-16am.co.uk/articles/causal-machines](https://www.3-16am.co.uk/articles/causal-machines)
 9. Dennett, D. C. (1995). _Darwin’s dangerous idea: Evolution and the meanings of life_. Simon & Schuster.
 10. Winograd, T., & Flores, F. (1986). _Understanding computers and cognition: A new foundation for design_. Ablex.
 11. Núñez, R., Allen, M., Gao, R., Miller Rigoli, C., Relaford-Doyle, J., & Semenuks, A. (2019). What happened to cognitive science? _Nature Human Behaviour_, _3_(8), 782-791. [https://doi.org/10.1038/s41562-019-0626-2](https://doi.org/10.1038/s41562-019-0626-2)
-12. Copeland, B. J. (2006). The modern history of computing. In E. N. Zalta (Ed.), _The Stanford encyclopedia of philosophy_. [https://plato.stanford.edu/entries/computing-history/](https://plato.stanford.edu/entries/computing-history/)
-13. Davies, M. (2007). Cognitive science. In F. Jackson & M. Smith (Eds.), _The Oxford handbook of contemporary philosophy_. Oxford University Press. [https://doi.org/10.1093/oxfordhb/9780199234769.003.0014](https://doi.org/10.1093/oxfordhb/9780199234769.003.0014)
-14. Miller, G. A. (2003). The cognitive revolution: A historical perspective. _Trends in Cognitive Sciences_, _7_(3), 141-144. [https://doi.org/10.1016/S1364-6613(03)00029-9](https://doi.org/10.1016/S1364-6613\(03\)00029-9)
-15. Wiener, N. (2019). _Cybernetics: Or control and communication in the animal and the machine_ (2nd ed., reissue). MIT Press. [https://doi.org/10.7551/mitpress/11810.001.0001](https://doi.org/10.7551/mitpress/11810.001.0001) (Original work published 1948)
-16. Marr, D. (2010). _Vision: A computational investigation into the human representation and processing of visual information_. MIT Press. [https://doi.org/10.7551/mitpress/9780262514620.001.0001](https://doi.org/10.7551/mitpress/9780262514620.001.0001) (Original work published 1982)
-17. Gentner, D. (2010). Psychology in cognitive science: 1978-2038. _Topics in Cognitive Science_, _2_(3), 328-344. [https://doi.org/10.1111/j.1756-8765.2010.01103.x](https://doi.org/10.1111/j.1756-8765.2010.01103.x)
-18. Gentner, D. (2019). Cognitive science is and should be pluralistic. _Topics in Cognitive Science_, _11_(4), 884-891. [https://doi.org/10.1111/tops.12459](https://doi.org/10.1111/tops.12459)
+12. Gentner, D. (2010). Psychology in cognitive science: 1978-2038. _Topics in Cognitive Science_, _2_(3), 328-344. [https://doi.org/10.1111/j.1756-8765.2010.01103.x](https://doi.org/10.1111/j.1756-8765.2010.01103.x)
+13. Gentner, D. (2019). Cognitive science is and should be pluralistic. _Topics in Cognitive Science_, _11_(4), 884-891. [https://doi.org/10.1111/tops.12459](https://doi.org/10.1111/tops.12459)
+14. Copeland, B. J. (2006). The modern history of computing. In E. N. Zalta (Ed.), _The Stanford encyclopedia of philosophy_. [https://plato.stanford.edu/entries/computing-history/](https://plato.stanford.edu/entries/computing-history/)
+15. Davies, M. (2007). Cognitive science. In F. Jackson & M. Smith (Eds.), _The Oxford handbook of contemporary philosophy_. Oxford University Press. [https://doi.org/10.1093/oxfordhb/9780199234769.003.0014](https://doi.org/10.1093/oxfordhb/9780199234769.003.0014)
+16. Miller, G. A. (2003). The cognitive revolution: A historical perspective. _Trends in Cognitive Sciences_, _7_(3), 141-144. [https://doi.org/10.1016/S1364-6613(03)00029-9](https://doi.org/10.1016/S1364-6613\(03\)00029-9)
+17. Wiener, N. (2019). _Cybernetics: Or control and communication in the animal and the machine_ (2nd ed., reissue). MIT Press. [https://doi.org/10.7551/mitpress/11810.001.0001](https://doi.org/10.7551/mitpress/11810.001.0001) (Original work published 1948)
+18. Marr, D. (2010). _Vision: A computational investigation into the human representation and processing of visual information_. MIT Press. [https://doi.org/10.7551/mitpress/9780262514620.001.0001](https://doi.org/10.7551/mitpress/9780262514620.001.0001) (Original work published 1982)
 19. Chomsky, N. (1957). _Syntactic structures_. Mouton. [https://doi.org/10.1515/9783112316009](https://doi.org/10.1515/9783112316009)
 20. Feigenbaum, E. A., & Feldman, J. (Eds.). (1963). _Computers and thought_. McGraw-Hill.
 21. Newell, A., Shaw, J. C., & Simon, H. A. (1958). Elements of a theory of human problem solving. _Psychological Review_, _65_(3), 151–166. [https://doi.org/10.1037/h0048495](https://doi.org/10.1037/h0048495)
@@ -44,22 +44,6 @@
 40. Varela, F. J., Thompson, E., & Rosch, E. (1991). _The embodied mind: Cognitive science and human experience_. MIT Press.
 
 
-
-## 逆温参数名字的来源
-
-逆温参数这个名称来自统计物理学中的玻尔兹曼分布。玻尔兹曼分布把一个系统处于状态 i 的概率写为：
-
-$$
-P(i) ∝ exp[−E(i)/(kT)] \qquad (7-24)
-$$
-
-其中 $$E(i)$$是该状态的能量，T 是温度。温度较高时，不同状态的概率变得相近，系统更容易随机地进入高能量状态；温度较低时，概率则集中于能量最低的状态。如果把主观价值理解为负的能量，即 $$V(i) = −E(i)$$，并把常数 k 合并到参数中，就可以得到：
-
-$$
-P(i) ∝ exp[θV(i)] \qquad (7-25)
-$$
-
-其中 $$θ$$ 与 $$1/T$$ 成正比。因此，较大的 $$\theta$$对应较低的温度和更加确定的选择，较小的 $$\theta$$对应较高的温度和更加随机的选择。这就是选择敏感参数被称为“逆温参数”的原因。
 
 
 
