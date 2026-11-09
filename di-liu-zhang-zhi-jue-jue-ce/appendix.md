@@ -2,57 +2,66 @@
 
 ## 本章数学符号总结
 
-6.4 经典漂移扩散模型
+| 符号或代码名称         | 含义            | 正文中的写法或说明                                 |
+| --------------- | ------------- | ----------------------------------------- |
+| `accumEvidence` | 累积证据序列        | 保存一个试次中各帧的累积证据，用于绘制证据积累轨迹。                |
+| `accuracy`      | 正确率           | 多个试次中，正确反应所占的比例。                          |
+| `b`             | 决策边界间距        | 6.4 中下边界为 0，上边界为 `b`；初始证据为 `b × z`。       |
+| `B`             | 对称决策阈值        | 6.2—6.3 中，上下决策边界分别表示为 `+B` 和 `−B`。        |
+| `bounds`        | 参数取值范围        | 参数拟合时，限定各个待估计参数的取值范围。                     |
+| `coh`           | 刺激一致性         | 表示当前试次中运动方向一致的程度；数据文件中的对应列名为 `coherence`。 |
+| `correct`       | 当前试次的正确性      | `1` 表示反应正确，`0`表示反应错误。                     |
+| `D`             | 观测数据集         | 由多个试次的数据组成，每个试次包含刺激一致性、反应时间和正确性等信息。       |
+| `data.shape`    | 数据矩阵的维度       | 表示数据的行数和列数；示例数据的维度为 `(300, 3)`。           |
+| `ddmpdf()`      | 单试次概率密度函数     | 根据模型参数和试次信息，计算反应时间与选择结果的联合概率密度。           |
+| `evidence`      | 当前累积证据        | 模拟过程中当前时刻的证据值；6.4 中初始值为 `b × z`。          |
+| `f`             | 单个点朝目标方向运动的概率 | 用于生成点的运动方向，与刺激一致性有关。                      |
+| `i`             | 当前帧序号         | 记录证据积累进行到第几帧。                             |
+| `k`             | 漂移系数          | 表示刺激一致性与漂移率之间的比例关系。                       |
+| `LL`            | 对数似然          | 衡量一组模型参数对观测数据的支持程度。                       |
+| `meanACC`       | 平均正确率         | 多个模拟试次的平均正确率。                             |
+| `meanRT`        | 平均反应时间        | 多个模拟试次的平均反应时间。                            |
+| `n_dot`         | 每帧的点数         | 模拟随机点运动时，每一帧中呈现的点的数量。                     |
+| `N_correct`     | 朝正确方向运动的点数    | 用于统计支持正确方向的运动信息。                          |
+| `N_wrong`       | 朝错误方向运动的点数    | 用于统计支持错误方向的运动信息。                          |
+| `NLL`           | 负对数似然         | 对数似然的相反数；模型拟合通过最小化负对数似然来估计参数。             |
+| `norm.rvs()`    | 正态分布随机抽样函数    | 其中 `loc` 表示均值，`scale`表示标准差，`size`表示抽样数量。  |
+| `pdf()`         | 概率密度函数        | 根据模型参数和试次信息计算概率密度。                        |
+| `res.x`         | 拟合得到的参数向量     | 保存优化过程得到的各个模型参数估计值。                       |
+| `rt`            | 当前试次的反应时间     | 反应时间在数据文件中的列名为 `RT`。                      |
+| `T`             | 时间或模拟时长       | 表示模拟中的时间长度，具体取值由所在代码段定义。                  |
+| `t_nd`          | 非决策时间         | 刺激编码、反应执行等非证据积累过程所需的时间；代码中也写作 `ndt`。      |
+| `v`             | 漂移率           | 表示证据积累的平均方向和速度；6.4 的代码中使用 `v = k × coh`。  |
+| `x0`            | 初始参数向量        | 参数优化开始时使用的一组初始值。                          |
+| `z`             | 相对起始位置        | 表示证据积累的起点在上下边界之间的相对位置；初始证据为 `b × z`。      |
+| `θ`             | 模型参数向量        | 包含拟合所需的一组参数，如漂移系数、决策边界、起始位置和非决策时间。        |
+| `μ`             | 证据增量的均值       | 正态分布的均值，用于描述证据增量的平均水平。                    |
+| `σ`             | 证据增量的标准差      | 正态分布的标准差，用于描述证据增量的波动程度。                   |
 
-| 符号或正文名称            | 物理意义                      | 正文中的写法或说明                                                                 |
-| ------------------ | ------------------------- | ------------------------------------------------------------------------- |
-| θ                  | 漂移扩散模型的参数向量               | 当前参数组合；拟合时包含漂移系数、决策边界、起始偏差和非决策时间                                          |
-| k                  | 漂移系数                      | 刺激一致性百分比与漂移率之间的比例系数                                                       |
-| coh                | 刺激一致性                     | 当前试次中朝同一方向运动的点的比例；数据列名为 `coherence`                                       |
-| `coherence`        | 数据文件中的刺激一致性列名             | 与表中的刺激符号 `coh` 同义                                                         |
-| μ                  | 每帧证据增量的均值，即漂移率            | 正态分布的均值；正文用 `DriftRate` 表示，定义为 `k × coh`                                  |
-| σ                  | 每帧证据增量的标准差                | 正态分布的标准差；代码中作为 `scale` 参数                                                 |
-| B                  | 决策边界间距                    | 拟合参数表和绘图代码中写作 `B`；模拟代码前面写作 `b`                                            |
-| a                  | 起始偏差参数                    | 表示起始位置在决策边界间距中的相对比例，0 < a < 1                                             |
-| ndt                | 非决策时间                     | 漂移扩散模型的拟合参数之一                                                             |
-| rt                 | 当前试次的反应时间                 | `ddmpdf()` 的输入；数据表列名写作 `RT`，建议正文统一写作 `rt`                                 |
-| correct            | 当前试次的正确性                  | 1 表示正确，0 表示错误                                                             |
-| θ 下的单试次联合概率密度      | 给定参数时，该试次反应时间和选择结果的联合概率密度 | 正文由 `ddmpdf()` 调用 `pdf()` 计算；选择下边界时，正文说明为 1 减去上边界对应的密度                    |
-| LL                 | 对数似然                      | 衡量参数 θ 对观测数据的支持程度                                                         |
-| NLL                | 负对数似然                     | 最大似然估计通过最小化 NLL 来拟合参数                                                     |
-| D                  | 观测数据集                     | 示例文件 `exampledata.txt` 读入 `data` 后得到；300 行代表 300 个试次，3 列依次为刺激一致性、反应时间和正确性 |
-| 正态分布               | 单帧证据波动的概率分布               | 代码从正态分布采样；其均值为 μ，标准差为 σ                                                   |
-| `DriftRate`        | 漂移率                       | 代码中由 `k × coh` 计算；大小写应保持一致，正文循环代码另出现 `driftRate`                          |
-| `b`                | 模拟代码中的决策边界变量              | 与后文绘图用的 `B` 指同一边界，建议统一成 `B`                                               |
-| `z`                | 模拟代码中的起始偏差比例              | 初始证据写为 `evidence = b × z`；与拟合参数 `a` 表示同一相对起始位置，建议统一成 `a`                  |
-| `evidence`         | 当前累积证据                    | 模拟中每一步更新的证据值；初始值设为边界与起始偏差比例的乘积                                            |
-| `accumEvidence`    | 各帧累积证据的序列                 | 用于保存并绘制整个试次的证据轨迹                                                          |
-| `i`                | 当前帧序号                     | 用于记录证据积累进行到第几帧                                                            |
-| `data.shape`       | 数据矩阵的行数和列数                | 输出 `(300, 3)`；不是模型参数                                                      |
-| `x0`               | 优化器的初始参数向量                | `minimize()` 中的 `(1, 2, 0.5, 0.2)`；                                       |
-| `bounds`           | 优化器中各参数的取值范围              | 依次限制漂移系数、决策边界、起始偏差和非决策时间                                                  |
-| `res.x`            | 优化得到的参数向量                 | `res.x[0]` 至 `res.x[3]` 分别对应四个拟合参数                                        |
-| `pdf()`            | 概率密度函数                    | 根据模型参数和当前试次信息计算概率密度                                                       |
-| `ddmpdf()`         | 本节使用的单试次概率密度函数            | 根据当前试次的刺激、反应时间、正确性及模型参数计算联合概率密度                                           |
-| `norm.rvs()`       | 从正态分布抽取随机数的函数             | `loc` 对应均值 μ，`scale` 对应标准差 σ，`size` 指定抽样数量                                |
-| `np.abs(evidence)` | 累积证据绝对值                   | 用来判断累积证据是否达到决策边界                                                          |
-| `np.arange(i+1)`   | 帧序号数组                     | 用作绘图横轴                                                                    |
-| `RT`               | 数据文件中的反应时间列名              | 与表中的反应时间符号 `rt` 同义；建议统一符号，保留 `RT` 仅作数据列名说明                                |
+## 本章参考文献
 
-## 参考文献
-
-6.4 经典漂移扩散模型
-
-1\.   Ratcliff, R. A theory of memory retrieval. Psychol. Rev. 85, 59–108 (1978).
-
-2\.   Gold, J. I. & Shadlen, M. N. The Neural Basis of Decision Making. Annu. Rev. Neurosci. 30, 535–574 (2007).
-
-3\.   Sun, Y., Lin, Y. & Han, S. Inhibition and updating share common resources: Bayesian evidence from signal detection theory and drift diffusion model. Psychological Research 89, 128 (2025).
-
-4\.   Ratcliff, R. & Tuerlinckx, F. Estimating parameters of the diffusion model: Approaches to dealing with contaminant reaction times and parameter variability. Psychon. B. Rev. 9, 438–481 (2002).
-
-5\.   Kruschke, J. K. & Liddell, T. M. Bayesian data analysis for newcomers. Psychon. B. Rev. 25, 155–177 (2018).
-
-6\.   Vandekerckhove, J., Tuerlinckx, F. & Lee, M. D. Hierarchical diffusion models for two-choice response times. Psychol. Methods 16, 44–62 (2011).
-
-7\.   Shinn, M., Lam, N. H. & Murray, J. D. A flexible framework for simulating and fitting generalized drift-diffusion models. eLife 9, e56938 (2020).
+1. Gold, J. I. & Shadlen, M. N. Neural computations that underlie decisions about sensory stimuli. _Trends in Cognitive Sciences_ **5**, 10–16 (2001).
+2. Ratcliff, R. A theory of memory retrieval. _Psychological Review_ **85**, 59–108 (1978).
+3. Gold, J. I. & Shadlen, M. N. The neural basis of decision making. _Annual Review of Neuroscience_ **30**, 535–574 (2007).
+4. Sun, Y., Lin, Y. & Han, S. Inhibition and updating share common resources: Bayesian evidence from signal detection theory and drift diffusion model. _Psychological Research_ **89**, 128 (2025).
+5. Ratcliff, R. & Tuerlinckx, F. Estimating parameters of the diffusion model: Approaches to dealing with contaminant reaction times and parameter variability. _Psychonomic Bulletin & Review_ **9**, 438–481 (2002).
+6. Kruschke, J. K. & Liddell, T. M. Bayesian data analysis for newcomers. _Psychonomic Bulletin & Review_ **25**, 155–177 (2018).
+7. Vandekerckhove, J., Tuerlinckx, F. & Lee, M. D. Hierarchical diffusion models for two-choice response times. _Psychological Methods_ **16**, 44–62 (2011).
+8. Shinn, M., Lam, N. H. & Murray, J. D. A flexible framework for simulating and fitting generalized drift-diffusion models. _eLife_ **9**, e56938 (2020).
+9. White, C. N., Ratcliff, R., Vasey, M. W. & McKoon, G. Using diffusion models to understand clinical disorders. _Journal of Mathematical Psychology_ **54**, 39–52 (2010).
+10. Lawlor, V. M. et al. Dissecting the impact of depression on decision-making. _Psychological Medicine_ **50**, 1613–1622 (2020).
+11. Ozturk, S. et al. Knowledge of threat biases perceptual decision making in anxiety: Evidence from signal detection theory and drift diffusion modeling. _Biological Psychiatry: Global Open Science_ **4**, 145–154 (2024).
+12. Dillon, D. G., Lazarov, A., Dolan, S., Bar-Haim, Y., Pizzagalli, D. A. & Schneier, F. R. Fast evidence accumulation in social anxiety disorder enhances decision making in a probabilistic reward task. _Emotion_ **22**, 1–18 (2022).
+13. Smucny, J., Hanks, T. D., Lesh, T. A. & Carter, C. S. Altered associations between task performance and dorsolateral prefrontal cortex activation during cognitive control in schizophrenia. _Biological Psychiatry: Cognitive Neuroscience and Neuroimaging_ **8**, 1050–1057 (2023).
+14. Shen, C., Calvin, O. L., Rawls, E., Redish, A. D. & Sponheim, S. R. Clarifying cognitive control deficits in psychosis via drift diffusion modeling and attractor dynamics. _Schizophrenia Bulletin_ **50**, 1357–1370 (2024).
+15. Chen, Y., Liu, Y., Wang, Z., Yang, T. & Fan, Q. Accumulation of evidence during decision making in OCD patients. _Frontiers in Psychiatry_ **13**, 980905 (2022).
+16. Grennan, G., Zhao, Y. & Fang, A. Applying a drift diffusion model to test the effect of oxytocin on attentional biases in body dysmorphic disorder. _Journal of Obsessive-Compulsive and Related Disorders_ **39**, 100841 (2023).
+17. Pirrone, A., Dickinson, A., Gomez, R., Stafford, T. & Milne, E. Understanding perceptual judgment in autism spectrum disorder using the drift diffusion model. _Neuropsychology_ **31**, 173–180 (2017).
+18. Sripada, C. & Weigard, A. Impaired evidence accumulation as a transdiagnostic vulnerability factor in psychopathology. _Frontiers in Psychiatry_ **12**, 627179 (2021).
+19. Hutcherson, C. A., Bushong, B. & Rangel, A. A neurocomputational model of altruistic choice and its implications. _Neuron_ **87**, 451–462 (2015).
+20. Krajbich, I., Bartling, B., Hare, T. & Fehr, E. Rethinking fast and slow based on a critique of reaction-time reverse inference. _Nature Communications_ **6**, 7455 (2015).
+21. Chen, F. & Krajbich, I. Biased sequential sampling underlies the effects of time pressure and delay in social decision making. _Nature Communications_ **9**, 3557 (2018).
+22. Son, J.-Y., Bhandari, A. & FeldmanHall, O. Crowdsourcing punishment: Individuals reference group preferences to inform their own punitive decisions. _Scientific Reports_ **9**, 11625 (2019).
+23. Yu, H., Siegel, J. Z., Clithero, J. A. & Crockett, M. J. How peer influence shapes value computation in moral decision-making. _Cognition_ **211**, 104641 (2021).
+24. Ghaffari, M. & Fiedler, S. The power of attention: Using eye gaze to predict other-regarding and moral choices. _Psychological Science_ **29**, 1878–1889 (2018).
+25. Smith, S. M. & Krajbich, I. Gaze amplifies value in decision making. _Psychological Science_ **30**, 116–128 (2019).
